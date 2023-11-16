@@ -1,0 +1,35 @@
+.quote {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	font-family: 'Archivo Black', sans-serif;
+	width: 300px;
+	height: 400px;
+	background-color: #83c5be;
+	color: white;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 20px;
+	border: solid #006d77 1px;
+}
+
+.quote-text {
+	font-size: 1.75rem;
+	line-height: 1.875rem;
+	max-width: 260px;
+	max-height: 320px;
+	-webkit-line-clamp: 10;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.quote-author {
+	max-width: 260px;
+	font-size: 2rem;
+	line-height: 2rem;
+	position: absolute;
+	text-align: right;
+	bottom: 20px;
+	right: 20px;
+}

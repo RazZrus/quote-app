@@ -1,0 +1,24 @@
+button {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 2rem;
+	line-height: 2rem;
+	color: white;
+	width: 200px;
+	height: 40px;
+	background-color: #83c5be;
+	box-shadow: 0px 14px 0px 0px #006d77;
+	border: #006d77 solid 2px;
+	border-radius: 10px;
+	transition: all 0.1s ease;
+}
+
+button:active {
+	transform: translateY(10px);
+	box-shadow: 0px 4px 0px 0px #006d77;
+}
+
+@media screen and (max-width: 426px) {
+	button {
+		width: 30vw;
+	}
+}

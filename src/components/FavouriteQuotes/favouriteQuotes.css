@@ -1,0 +1,31 @@
+.favourite-quotes-list {
+	list-style: none;
+	width: 50%;
+}
+
+.favourite-quotes-list-item {
+	margin-top: 30px;
+	border-top: 1px solid gray;
+}
+
+.favourite-quotes-list-item:nth-child(1) {
+	margin-top: 0;
+	border-top: none;
+}
+
+.favourite-quote-text {
+	color: rgb(102, 102, 102);
+}
+
+h2 {
+	margin: 40px 0;
+}
+
+.delete-from-favourites__button {
+	margin-top: 10px;
+	font-size: 1.25rem;
+	line-height: 1.25rem;
+	height: 30px;
+	width: 100px;
+	box-shadow: 0px 10px 0px 0px #006d77;
+}
